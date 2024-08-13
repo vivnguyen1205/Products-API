@@ -1,7 +1,7 @@
 
 # Products API
 My First Web API!!!
-This project is a simple **CRUD** (Create, Read, Update, Delete) **REST API** built using **ASP.NET Core** and **Entity Framework Core**. The API allows you to manage a list of products and is secured using **JWT (JSON Web Token) authentication**.
+This project is a simple **CRUD** **REST API** built using **ASP.NET Core** and **Entity Framework Core**. The API allows you to manage a list of products and is secured using **JWT (JSON Web Token) authentication**.
 ## Features
 
 - **CRUD Operations**: Create, Read, Update, and Delete products.
