@@ -1,25 +1,7 @@
-Here's a sample GitHub README file for your project:
 
----
-
-# Product Management API
-
-This project is a **CRUD** (Create, Read, Update, Delete) **REST API** built using **ASP.NET Core** and **Entity Framework Core**. The API allows you to manage a list of products and is secured using **JWT (JSON Web Token) authentication**.
-
-## Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Database Setup](#database-setup)
-  - [Running the Application](#running-the-application)
-- [API Endpoints](#api-endpoints)
-- [Authentication](#authentication)
-- [Contributing](#contributing)
-- [License](#license)
-
+# Products API
+My First Web API!!!
+This project is a simple **CRUD** (Create, Read, Update, Delete) **REST API** built using **ASP.NET Core** and **Entity Framework Core**. The API allows you to manage a list of products and is secured using **JWT (JSON Web Token) authentication**.
 ## Features
 
 - **CRUD Operations**: Create, Read, Update, and Delete products.
@@ -98,7 +80,7 @@ This project is a **CRUD** (Create, Read, Update, Delete) **REST API** built usi
   - Request Body: 
     ```json
     {
-      "username": "your_username",
+      "Email": "your_email",
       "password": "your_password"
     }
     ```
@@ -114,15 +96,3 @@ You will need to include the JWT token in the `Authorization` header of your req
 ```http
 Authorization: Bearer your_jwt_token
 ```
-
-## Contributing
-
-Contributions are welcome! Please fork this repository and submit a pull request for any improvements.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-This README provides a comprehensive overview of the project, instructions for getting started, and details on the API endpoints. You can customize it further based on your specific needs.
