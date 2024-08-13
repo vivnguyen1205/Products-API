@@ -44,7 +44,6 @@ namespace InventoryService.Controllers
                     var claims = new[] {
                     new Claim(JwtRegisteredClaimNames.Sub, _configuration["Jwt:Subject"]),
                     new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                    // new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()),
                     new Claim("Id", user.UserId.ToString()),
                     new Claim("FirstName", user.FirstName),
                     new Claim("LastName", user.LastName),
