@@ -26,7 +26,7 @@ This project is a simple **CRUD** (Create, Read, Update, Delete) **REST API** bu
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/ProductManagementAPI.git
+   git clone https://github.com/vivnnguyen1205/Products-API.git
    cd ProductManagementAPI
    ```
 
