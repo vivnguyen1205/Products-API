@@ -79,7 +79,7 @@ namespace InventoryService.Controllers
             return NoContent();
         }
 
-        // POST: api/Products
+        // POST: api/Products - creates a new product
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for
         // more details see https://aka.ms/RazorPagesCRUD.
         [HttpPost]
