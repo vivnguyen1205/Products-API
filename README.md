@@ -27,7 +27,7 @@ This project is a simple **CRUD** **REST API** built using **ASP.NET Core** and 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/vivnnguyen1205/Products-API.git
-   cd ProductManagementAPI
+   cd Products-API
    ```
 
 2. **Install dependencies:**
